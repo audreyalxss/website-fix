@@ -1,0 +1,65 @@
+header {
+    border: 1px solid #70a9ff ;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #285eaf;
+}
+
+header p {
+       font-style: italic;
+}
+
+header img {
+      width: 30%;
+      border: 2px solid #354865;
+      border-radius: 50%;
+
+    }
+
+    header button {
+          display: block;
+          margin: 20px auto;
+          padding: 10px 30px;
+          background-color: aquamarine;
+          color: darkgreen;
+          border-radius: 15px;
+          border: 1px solid cadetblue
+    }
+    header button:hover {
+        background-color: #31568f;
+        color:brown
+    }
+
+.project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid red;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.project img {
+    width: 40%;
+}
+.project img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px #AEEA94;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: #678bce;
+    color: rgb(0, 255, 229);
+}
+
+
+
+
+
